@@ -1,0 +1,23 @@
+.btn-container {
+    display: flex;
+  }
+  
+  .btn-container button {
+    width: 100%;
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 54px;
+    margin-bottom: 54px;
+  }
+  
+  .btn h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -0.015em;
+  
+  
+    color: #000000;
+    text-transform: uppercase;
+  }
+  

@@ -1,0 +1,96 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    
+    background: #6c6c6c;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  
+   
+    width: 300px;
+    height: 322px;
+    margin-bottom: 30px;
+  }
+  
+  .cardd-containerr-img {
+  text-align: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #e1e1e1;
+  }
+  
+  .cardd-containerr-img img{
+    width: 250px;
+    height: 164, 09px;
+    
+  }
+  
+  .card-container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+  
+  .card-container-text h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.015em;
+  
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .card-container-text h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+  
+    letter-spacing: -0.015em;
+  
+    color: #ffc700;
+  
+    mix-blend-mode: normal;
+    margin-bottom: 5px;
+  }
+  
+  .card-container-text p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+  
+    letter-spacing: -0.015em;
+  
+    color: #ffffff;
+  
+    mix-blend-mode: normal;
+  
+  }
+  
+  
+  
+  
+  
+  @media (min-width: 1400px) {
+  
+    .card-container-text h1 {
+      font-size: 25px;
+    }
+  
+    .card-container-text h2 {
+      font-size: 21px;
+    }
+  
+    .card-container-text p {
+      font-size: 19px;
+    }
+  }
+  

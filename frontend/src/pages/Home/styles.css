@@ -1,0 +1,76 @@
+.auth-container{
+    display: flex;
+    justify-content: space-around;
+  
+    padding: 20px;
+}
+
+.auth-banner-container{
+    display: none;
+   
+}
+
+.auth-form-container{
+    width: 100%;
+   
+}
+
+@media (min-width: 576px){
+
+    .auth-form-container{
+        width: 480px;
+    }
+
+}
+
+
+@media (min-width: 768px){
+
+    .auth-form-container{
+        width: 550px;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+
+    .auth-container{
+        padding: 40px;
+
+    }
+    .auth-banner-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        width: 350px;
+        
+        
+        
+    }
+
+    .auth-banner-container h1{
+        margin-bottom: 15px;
+        font-size: 48px;
+        letter-spacing: -0.015em;
+        color:#ffff ;
+        margin-left: 30px;
+    }
+    .auth-banner-container p{
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 30px;
+    letter-spacing: -0.015em;
+    color: #F2F2F2
+    
+    
+    }
+
+    .auth-banner-container svg{
+        
+        width: 390px;
+        margin-left: 0px;
+       margin-top: 30px;
+    }
+}
+
